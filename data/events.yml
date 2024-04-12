@@ -1,0 +1,40 @@
+# Fill this file with events from your life
+# They don't need to be in chronological order unless you want them to be.
+# Events within the same week will be listed in the same cell on the grid.
+# Set the start date and end date in data/config.yml
+
+# Example:
+# - date: 'M/DD/YYYY'
+#   event: 'Aliens visit earth and they are taken to see me'
+
+# Example events from the life of Jim Henson! https://en.wikipedia.org/wiki/Jim_Henson
+
+- date: '9/24/1936'
+  event: 'I am born in Greenville, Mississippi'
+
+- date: '3/1/1954'
+  event: 'I start working at WTOP-TV'
+
+- date: '9/1/1954'
+  event: 'I enroll at University of Maryland, College Park'
+
+- date: '10/1/1954'
+  event: 'Sam & Friends starts at WRC-TV'
+
+- date: '7/1/1959'
+  event: 'Jane and I are married'
+  
+- date: '5/1/1960'
+  event: 'I graduate from the University of Maryland with a degree in home economics'
+  
+- date: '1/1/1963'
+  event: 'Jane and I move to New York City'
+
+- date: '9/11/1966'
+  event: 'Appearance on the Ed Sullivan show'
+  
+- date: '3/1/1969'
+  event: 'I join Sesame Street'
+  
+- date: '5/4/1990'
+  event: 'My final television appearance'

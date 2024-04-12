@@ -1,0 +1,58 @@
+body {
+  max-width: 780px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px;
+}
+
+.rubik { font-family: 'Rubik', sans-serif; }
+
+.steel-dark { color: #2C424B; }
+.steel-mid-dark { color: #5D8291; }
+.steel { color: #7BA6B8; }
+.steel-light { color: #E6ECEE; }
+.bg-steel-light { background-color: #E6ECEE; }
+
+.forest-dark { color: #2B6E3A; }
+.forest-mid-dark { color: #3CAB54; }
+.bg-forest-dark { background-color: #2B6E3A; }
+.bg-forest-mid-dark { background-color: #3CAB54; }
+
+.white { color: #FFFFFF; }
+.bg-light-grey { background-color: #EEEEEE; }
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3px;
+}
+
+.cell {
+  height: 20px;
+  min-width: 5px;
+  padding: 3px 5px;
+  position: relative;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.cell .cell-tooltip {
+  visibility: hidden;
+  background-color: #2C424B;
+  color: #E6ECEE;
+  text-align: center;
+  padding: 10px;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+  font-size: 14px;
+  line-height: 1.3;
+  width: 180px;
+  bottom: 120%;
+  left: 50%;
+  margin-left: -90px;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+.cell:hover .cell-tooltip {
+  visibility: visible;
+}

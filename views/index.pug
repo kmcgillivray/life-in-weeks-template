@@ -1,0 +1,17 @@
+html
+  head
+    title= title
+    link(rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik:400,700&display=swap")
+    link(rel="stylesheet" href="/styles/main.css")
+  body.rubik
+    h1.forest-dark= title
+    div.grid
+      each week in grid
+        if week.event
+          span.cell.bg-forest-mid-dark.white(title= week.description)= week.year
+            span.cell-tooltip= week.description
+        else
+          if week.beforeToday === true
+            span.cell.bg-steel-light.steel-mid-dark(title= week.description)= week.year
+          else
+            span.cell.bg-light-grey.steel(title= week.description)= week.year

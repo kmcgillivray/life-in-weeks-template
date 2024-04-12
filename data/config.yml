@@ -1,0 +1,5 @@
+# Set these options to your name and the date range you want to see on the grid
+
+name: 'You'
+startDate: '9/24/1936'
+endDate: '9/24/2036'

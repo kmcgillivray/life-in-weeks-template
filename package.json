@@ -1,0 +1,17 @@
+{
+  "name": "life-in-weeks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Kevin McGillivray",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^2.0.4",
+    "yaml": "^1.7.2",
+    "dayjs": "^1.8.19"
+  }
+}
